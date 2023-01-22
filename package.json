@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "16"
+    "node": "18"
   },
   "scripts": {
     "start": "npx functions-framework --target=puppeteer-sample-function",
-    "deploy": "gcloud functions deploy puppeteer-sample-function-n16-p18 --entry-point=puppeteer-sample-function --trigger-http --allow-unauthenticated --runtime=nodejs16 --memory=512MB",
+    "deploy": "gcloud functions deploy puppeteer-sample-function-n18-p18 --entry-point=puppeteer-sample-function --trigger-http --allow-unauthenticated --runtime=nodejs18 --memory=512MB",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "npx functions-framework --target=puppeteer-sample-function",
-    "deploy": "gcloud functions deploy puppeteer-sample-function-n16-p18 --entry-point=puppeteer-sample-function --trigger-http --allow-unauthenticated --runtime=nodejs16 --memory=512MB",
+    "deploy": "gcloud functions deploy puppeteer-sample-function-n16-p19 --entry-point=puppeteer-sample-function --trigger-http --allow-unauthenticated --runtime=nodejs16 --memory=512MB",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,6 @@
   "homepage": "https://github.com/jacobg/gcf-puppeteer-sample#readme",
   "dependencies": {
     "@google-cloud/functions-framework": "^3.1.3",
-    "puppeteer": "^18.2.1"
+    "puppeteer": "^19.5.2"
   }
 }
